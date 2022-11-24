@@ -1,6 +1,6 @@
 ﻿int Num(int num)
 {
-
+    Console.WriteLine(num);
     return num %10;
 }
 
