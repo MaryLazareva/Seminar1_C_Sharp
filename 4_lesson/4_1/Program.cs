@@ -7,3 +7,4 @@
 
 Console.WriteLine("Введите число:");
 Console.WriteLine(Num(int.Parse(Console.ReadLine())));
+
