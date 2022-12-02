@@ -12,7 +12,8 @@ void Massiv(int n)
     {
         array[i] = new Random().Next(1000);
         Console.Write($"{array[i]} ");
-    }   
+    } 
+    Console.WriteLine();  
 }
 
 int num = ReadNumber("Введите число:");
