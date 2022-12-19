@@ -5,13 +5,13 @@
     if (m % 2 == 0) 
     {   
         Console.Write($" {m} ");
-        Numbers(m+2, n);
+        Numbers(m + 2, n);
     }
     else
     {
         m += 1;
         Console.Write($" {m} ");
-        Numbers(m+2, n);
+        Numbers(m + 2, n);
     }           
 }
 Console.WriteLine("Enter Numbers: ");
